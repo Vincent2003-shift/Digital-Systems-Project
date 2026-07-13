@@ -1,0 +1,18 @@
+# Dataset (download from Kaggle — see README) and any regenerated intermediates
+data/
+*.npy
+*.csv
+
+# Trained models and pipeline artefacts — regenerate by running pipeline.py
+models/
+*.pkl
+
+# Generated results and figures — regenerate by running pipeline.py
+results/
+figures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
